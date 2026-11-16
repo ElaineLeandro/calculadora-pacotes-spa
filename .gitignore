@@ -1,0 +1,21 @@
+# === AMBIENTE PYTHON ===
+# Ignora o ambiente virtual (equivale à node_modules no JS)
+venv/
+.venv/
+
+# Ignora arquivos temporários compilados pelo Python
+__pycache__/
+*.py[cod]
+
+# === SEGURANÇA & PRIVACIDADE (LGPD) ===
+# Ignora arquivos de variáveis de ambiente e senhas
+.env
+
+# Ignora qualquer arquivo de dados, planilhas ou bancos locais
+# Garante que fichas de clientes ou dados de saúde nunca subam ao GitHub
+*.json
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+dados_reais/
